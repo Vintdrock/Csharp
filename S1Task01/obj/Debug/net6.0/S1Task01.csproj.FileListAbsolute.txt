@@ -1,0 +1,15 @@
+/Users/kuyask/Documents/GB/C#/S1Task01/bin/Debug/net6.0/S1Task01
+/Users/kuyask/Documents/GB/C#/S1Task01/bin/Debug/net6.0/S1Task01.deps.json
+/Users/kuyask/Documents/GB/C#/S1Task01/bin/Debug/net6.0/S1Task01.runtimeconfig.json
+/Users/kuyask/Documents/GB/C#/S1Task01/bin/Debug/net6.0/S1Task01.dll
+/Users/kuyask/Documents/GB/C#/S1Task01/bin/Debug/net6.0/S1Task01.pdb
+/Users/kuyask/Documents/GB/C#/S1Task01/obj/Debug/net6.0/S1Task01.csproj.AssemblyReference.cache
+/Users/kuyask/Documents/GB/C#/S1Task01/obj/Debug/net6.0/S1Task01.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kuyask/Documents/GB/C#/S1Task01/obj/Debug/net6.0/S1Task01.AssemblyInfoInputs.cache
+/Users/kuyask/Documents/GB/C#/S1Task01/obj/Debug/net6.0/S1Task01.AssemblyInfo.cs
+/Users/kuyask/Documents/GB/C#/S1Task01/obj/Debug/net6.0/S1Task01.csproj.CoreCompileInputs.cache
+/Users/kuyask/Documents/GB/C#/S1Task01/obj/Debug/net6.0/S1Task01.dll
+/Users/kuyask/Documents/GB/C#/S1Task01/obj/Debug/net6.0/refint/S1Task01.dll
+/Users/kuyask/Documents/GB/C#/S1Task01/obj/Debug/net6.0/S1Task01.pdb
+/Users/kuyask/Documents/GB/C#/S1Task01/obj/Debug/net6.0/S1Task01.genruntimeconfig.cache
+/Users/kuyask/Documents/GB/C#/S1Task01/obj/Debug/net6.0/ref/S1Task01.dll
