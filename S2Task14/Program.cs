@@ -7,25 +7,12 @@
 
 bool MultiplicityTwoNumbers(int num, int num2, int num3)
 {
-    return num % num1 == 0 && num % num2 == 0; 
+    return num % num2 == 0 && num % num3 == 0; 
 }
 
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-bool result = MultiplicityTwoNumbers(num, 7, 23);
+bool result = MultiplicityTwoNumbers(number, 7, 23);
 
-Conssole.WriteLine(result ? "Кратно" : "Не кратно");
-
-
-// bool MultiplicityTwoNumbers(int num, int num1, int num2)
-// {
-//     return num % num1 == 0 && num % num2 == 0;
-// }
-
-// Console.Write("Введите число: ");
-// int number = Convert.ToInt32(Console.ReadLine());
-
-// bool result = MultiplicityTwoNumbers(number, 3, 11);
-
-// Console.WriteLine(result? "Кратно" : "Не кратно");
+Console.WriteLine(result ? "Кратно" : "Не кратно");
