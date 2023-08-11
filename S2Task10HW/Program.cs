@@ -3,23 +3,19 @@
 // 782 -> 8
 // 918 -> 1
 
-bool CheckThreeDigits(int threeDigit)
+Console.Write("Введите  трехзначное число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if ((number > 99 && number < 1000))
 {
-    return threeDigit > 99 && threeDigit < 1000;
+    Console.WriteLine(SecondDigit(number));
 }
+else Console.WriteLine("Вы ввели НЕ трехзначное число!");
 
 
+//Функция
 int SecondDigit(int num)
 {
     int secondDigit = (num / 10) % 10;
     return secondDigit;
 }
-
-Console.Write("Введите  трехзначное число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-
-if (CheckThreeDigits(number) == true)
-{
-    Console.WriteLine(SecondDigit(number));
-}
-else Console.WriteLine("Вы ввели НЕ трехзначное число!");
