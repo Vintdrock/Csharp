@@ -25,6 +25,6 @@ void WriteTableSquare(int number)
 }
 
 Console.Write("Введите число: ");
-int n = Convert.ToInt32(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 
-WriteTableSquare(n);
+WriteTableSquare(num);
