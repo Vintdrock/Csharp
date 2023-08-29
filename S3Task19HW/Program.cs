@@ -9,7 +9,6 @@ else {
     Console.WriteLine("False");
 }
 
-
 // if (number > 9999 && number < 100000) {
 //     return number/10000 == number%10 && (number/1000)%10 == (number%100)/10;
 //       }
