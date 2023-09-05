@@ -4,37 +4,36 @@
 // 1 4 8 19
 // 5 -2 33 -2
 // 77 3 8 1
-48. Задайте двумерный массив размера m на n, каждый элемент в массиве находится по формуле: Amn = m+n.
-// Выведите полученный массив на экран.
 
-int[,] CreateMatrixSumIndexes(int rows, int columns)
+int[,] CreateMatrixRndInt(int rows, int columns, int min, int max) 
 {
-    int[,] matrix = new int[rows, columns];
+    //                        0       1
+    int[,] matrix = new int[rows, columns]; // rows = 3, columns = 4
+    Random rnd = new Random();
 
-    for(int i = 0; i < rows; i++)
+    for (int i = 0; i < matrix.GetLength(0); i++) // 3
     {
-        for(int j = 0; j < columns; j++)
+        for (int j = 0; j < matrix.GetLength(1); j++) // 4
         {
-            matrix[i, j] = i + j;
+            matrix[i, j] = rnd.Next(min, max + 1);
         }
     }
     return matrix;
 }
 
-void PrintArray(int[,] arr)
+void PrintMatrix(int[,] matrix)
 {
-    int rows = arr.GetLength(0);
-    int columns = arr.GetLength(1);
-
-    for(int i = 0; i < rows; i++)
+    for (int i = 0; i < matrix.GetLength(0); i++) 
     {
-        for(int j = 0; j < columns; j++)
+        //Console.Write("|");
+        for (int j = 0; j < matrix.GetLength(1); j++) 
         {
-            Console.Write($"{arr[i, j], 5}");
+            Console.Write($"{matrix[i, j], 5}");
         }
-        Console.WriteLine();
+       //Console.WriteLine("  |");
+       Console.WriteLine();
     }
 }
 
-int[,] matrix = CreateMatrixSumIndexes(3, 4);
-PrintArray(matrix);
+int[,] array2d = CreateMatrixRndInt(3, 4, -100, 100);
+PrintMatrix(array2d);
