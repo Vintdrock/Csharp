@@ -16,11 +16,10 @@ int DecimalToBinary(int number)
     }
     return binary;
 }
-int binar = DecimalToBinary(46);
-Console.WriteLine(binar);
+
 
 //Через строку
-string DecimalToBinary(int number)
+string DecimalToBinaryString(int number)
 {
     string binary = string.Empty;
     while(number > 0)
@@ -33,5 +32,10 @@ string DecimalToBinary(int number)
 
 Console.Write("Введите десятичное число: ");
 int decimalNumber = Convert.ToInt32(Console.ReadLine());
-string binaryNumber = DecimalToBinary(decimalNumber);
-Console.Write($"{decimalNumber} -> {binaryNumber}");
+
+int binar = DecimalToBinary(decimalNumber);
+Console.WriteLine(binar);
+
+//Через строку
+string binaryNumberString = DecimalToBinaryString(decimalNumber);
+Console.Write($"{decimalNumber} -> {binar}");
